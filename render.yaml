@@ -15,9 +15,6 @@ services:
     env: docker
     dockerfilePath: ./Dockerfile
     plan: starter        # $7/mo — avoids 15-min spin-down on free tier
-    envVars:
-      - key: PORT
-        value: 8000
     disk:
       name: data
       mountPath: /app/scraped_data
