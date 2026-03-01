@@ -1,1 +1,0 @@
-.\staatsblad_tf\Scripts\python.exe predict.py
